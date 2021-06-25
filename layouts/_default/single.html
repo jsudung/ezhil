@@ -26,6 +26,22 @@
 					</nav>
 				{{ end }}
 			{{ end }}
+			<div class="pagination__post">
+				{{if .PrevInSection}}
+				  <a class="pagination__item" href="{{.PrevInSection.Permalink}}">
+					  <span class="pagination__label">Previous Post</span>
+					  <span class="pagination__title">{{.PrevInSection.Title}}</span>
+				  </a>
+				{{end}}
+
+				{{if .NextInSection}}
+				  <a class="pagination__item" href="{{.NextInSection.Permalink}}">
+					  <span class="pagination__label">Next Post</span>
+					  <span class="pagination__title" >{{.NextInSection.Title}}</span>
+				  </a>
+				{{end}}
+			  </div>
+			  
 		</div>
 		{{- $.Scratch.Set "isDisqus" true -}}
 

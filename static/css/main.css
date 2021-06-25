@@ -414,3 +414,50 @@ table th, table td {
         margin-top: 10px;
     }
 }
+
+.pagination__post {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.pagination__item {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.pagination__item:nth-child(2) {
+    margin-top: 1.5rem;
+}
+
+.pagination__label {
+    color: black;
+    font-size: 0.8rem;
+}
+  
+.pagination__title {
+    /* color: black; */
+    margin-top: 0.15rem;
+}
+
+@media screen and (min-width: 767px) {
+    .pagination__item {
+        width: 275px;
+        border-radius: 4px;
+    }
+
+    .pagination__item:last-of-type {
+        margin-top: 0;
+    }
+
+    .pagination__item:nth-child(2) {
+        text-align: right;
+    }
+
+    .pagination__post {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}

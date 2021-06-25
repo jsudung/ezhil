@@ -71,3 +71,8 @@ table th, table td {
 pre code {
   display: inline-block
 }
+
+.pagination__label {
+    color: #DDD;
+    font-size: 0.8rem;
+}
