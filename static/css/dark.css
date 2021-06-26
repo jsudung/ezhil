@@ -76,3 +76,8 @@ pre code {
     color: #DDD;
     font-size: 0.8rem;
 }
+
+#back-to-top {
+    background: white;
+    color: black;
+}
