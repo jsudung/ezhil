@@ -234,7 +234,7 @@ pre code {
 
 .header nav {
     margin-top: 20px;
-    border-top: 1px solid #f4f4f4;
+    border-top: 1px solid #ddd;
 }
 
 .header nav ul,
@@ -353,7 +353,7 @@ pre code {
     text-align: right;
     font-size: 0.75em;
     color: #999;
-    border-top: 1px solid #f4f4f4;
+    border-top: 1px solid #ddd;
     padding: 15px 0;
     margin-top: 40px;
     display: flex;
